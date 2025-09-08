@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "TipEasy",
+    "subtitle": "Built with Zara",
+    "description": "TipEasy is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://247478fca65742c4823138acc643b12b-emit.vercel.app",
+    "splashImageUrl": "https://247478fca65742c4823138acc643b12b-emit.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://247478fca65742c4823138acc643b12b-emit.vercel.app/image.png",
+    "tagline": "TipEasy",
+    "screenshotUrls": [
+      "https://247478fca65742c4823138acc643b12b-emit.vercel.app/screenshot.png",
+      "https://247478fca65742c4823138acc643b12b-emit.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://247478fca65742c4823138acc643b12b-emit.vercel.app/api/webhook"
+  }
+}
