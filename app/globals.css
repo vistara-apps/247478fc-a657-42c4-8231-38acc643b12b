@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-space-bg text-white;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    background-image: 
+      radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-space-surface bg-opacity-20 backdrop-blur-lg border border-white border-opacity-10 rounded-lg;
+  }
+  
+  .neon-border {
+    @apply border border-neon-blue shadow-neon;
+  }
+  
+  .neon-text {
+    @apply text-neon-blue animate-glow;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-neon-blue to-neon-cyan text-white px-6 py-3 rounded-lg font-medium hover:from-blue-600 hover:to-cyan-600 transition-all duration-200 shadow-lg hover:shadow-neon;
+  }
+  
+  .btn-secondary {
+    @apply glass-card px-6 py-3 rounded-lg font-medium hover:bg-opacity-30 transition-all duration-200 border-neon-purple text-neon-purple hover:shadow-neon;
+  }
+  
+  .creator-card {
+    @apply glass-card p-4 hover:bg-opacity-25 transition-all duration-200 hover:shadow-neon;
+  }
+  
+  .tip-button {
+    @apply bg-gradient-to-r from-neon-purple to-neon-blue text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-neon-lg transition-all duration-200 animate-pulse-neon;
+  }
+}
